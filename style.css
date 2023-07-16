@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./Images/back.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 420px;
+    width: 100%;
+    border-radius: 25px;
+    padding: 30px;
+    border: 1px solid #ffffff40;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.image{
+    position: relative;
+    width: 150px;
+    height: 150x;
+}
+
+.profile-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.detail h2{
+    font-size: 33px;
+    font-weight: 600;
+}
+
+span{
+    font-size: 18px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.info{
+    text-align: center;
+    padding: 0 20px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.btn{
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    padding: 8px 20px;
+    border-radius: 25px;
+    font-size: 18px;
+    white-space: nowrap;
+    background: linear-gradient(to left, #33ccff 0% , #ff99cc 100%);
+}
+
+.btn:hover{
+    box-shadow: inset 0 5px 20px rgba(0, 0, 0, 0.4);
+}
